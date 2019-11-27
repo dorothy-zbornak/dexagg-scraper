@@ -1,0 +1,10 @@
+{
+    "target": "es5",
+    "lib": ["es2017"],
+    "include": ["./src/**.ts"],
+    "compilerOptions": {
+        "outDir": "lib",
+        "rootDir": ".",
+        "resolveJsonModule": true,
+    }
+}

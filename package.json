@@ -1,0 +1,30 @@
+{
+  "name": "dexagg-scraper",
+  "version": "1.0.0",
+  "main": "lib/src/main.js",
+  "license": "Apache-2.0",
+  "author": "Lawrence Forman <lawrence@0xproject.com>",
+  "private": true,
+  "scripts": {
+    "build": "tsc -b",
+    "clean": "rm -rf ./lib/*",
+    "start": "node ./lib/src/main.js",
+    "start-dev": "npm run build && npm run start"
+  },
+  "dependencies": {
+    "@0x/orderbook": "^0.0.2",
+    "@0x/types": "^2.4.3",
+    "@types/bignumber.js": "^5.0.0",
+    "axios": "^0.19.0",
+    "bignumber.js": "^9.0.0",
+    "ethereumjs-util": "^6.2.0",
+    "ethers": "^4.0.40",
+    "lodash": "^4.17.15",
+    "yargs": "^15.0.2"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.149",
+    "@types/yargs": "^13.0.3",
+    "typescript": "^3.7.2"
+  }
+}
