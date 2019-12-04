@@ -107,7 +107,7 @@ async function fetchNativeOrdersAsync(
     takerToken: string,
 ): Promise<Order[]> {
     const sra = Orderbook.getOrderbookForPollingProvider({
-        httpEndpoint: 'https://sra.0x.org/v2',
+        httpEndpoint: 'https://api.0x.org/sra',
         pollingIntervalMs: 5000,
         perPage: 100,
     });
