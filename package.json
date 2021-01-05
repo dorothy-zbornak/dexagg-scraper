@@ -15,7 +15,7 @@
     "@0x/orderbook": "^0.0.2",
     "@0x/types": "^2.4.3",
     "@types/bignumber.js": "^5.0.0",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "bignumber.js": "^9.0.0",
     "ethereumjs-util": "^6.2.0",
     "ethers": "^4.0.40",
